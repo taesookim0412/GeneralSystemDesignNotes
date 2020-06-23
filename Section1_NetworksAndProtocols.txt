@@ -1,0 +1,32 @@
+Section 1: Networks & Protocols (IP, DNS, HTTP, TCP etc)
+
+"Protocols" - "System of Rules/Procedures"
+"'Network' Protocols": Govern how machines and software communicate over network.
+
+Packets transmit data over the web: 2^16 bytes.
+Header and Data.
+Header contains metadata contains IP of the source, other tags...
+From experience it contains tokens, ip addresses, (?) Source.
+
+IP: Internet Protocol.
+IPv4 is running out. IPv6 is being adopted.
+
+TCP: Built on top of IP.
+Establishes the ordering of packets -> TCP must establish a handshake
+in order for the packets to transmit.
+"Listening" at a port opens a connection.
+Similarly, a connection is closed in this way.
+
+HTTP is an abstraction built on top of TCP/IP.
+Request-Response pattern.
+Client requests, server responds with information.
+Browser is the client. Servers can request data from other servers,
+still client -> server.
+"HTTP doens't need to worry much about IP and TCP"?
+Requests and responses have headers and bodies, which contain data.
+HTTP requests and responses are similar to key-value pairs, JS objects.
+HTTP methods: "RESTful" services.
+POST, GET PUT, PATCH, AND DELETE
+"POST/HTTP/1.1"
+
+
